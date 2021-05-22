@@ -1,0 +1,10 @@
+<div class="toolbar row">
+  <div *ngFor="let data of buttonData" class="col-1">
+    <button
+      mat-stroked-button
+      class="toolbarButton"
+    >
+      {{data.label}}
+    </button>
+  </div>
+</div>
